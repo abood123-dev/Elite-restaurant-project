@@ -9,6 +9,7 @@ import {
   BrowserRouter,
     createBrowserRouter,
     RouterProvider,
+    createHashRouter
   } from "react-router-dom";
 import Chefs from "./Chefs";
 import More from "./more";
@@ -18,7 +19,7 @@ import Bout from "./Bout";
 import Cart from "./Cart";
 import Checkout from "./Checkout";
 import Signup from "./Signup";
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: "/",
       element: <App/>
