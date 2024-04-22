@@ -1,4 +1,5 @@
 {
+  "homepage": "https://abood123-dev.github.io/Elite-restaurant-project/",
   "name": "re-type",
   "version": "0.1.0",
   "private": false,
@@ -45,7 +46,6 @@
       "last 1 safari version"
     ]
   },  
-  "homepage": "https://abood123-dev.github.io/Elite-restaurant-project/",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
   "devDependencies": {
