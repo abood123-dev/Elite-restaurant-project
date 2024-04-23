@@ -69,10 +69,11 @@ import Signup from "./Signup";
   ]);
 ReactDOM.render(
 <>  
-   
+     <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Contextt>
     <RouterProvider router={router}  />
     </Contextt>
+    </BrowserRouter>   
      
 </>
 ,document.getElementById('root')
